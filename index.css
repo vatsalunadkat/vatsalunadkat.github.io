@@ -10,12 +10,10 @@ table {
   border-collapse: collapse;
 }
 table.nested-table {
-  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_MainDescription.jpg");
-  background-size: contain;
-  border-collapse: collapse;
   border: 0px;
-  width: 101%;
+  width: 100%;
   height: 100%;
+  border-collapse: collapse;
 }
 
 th {
@@ -25,12 +23,16 @@ th {
 td {
   width: 30%;
 }
+td.main-dis {
+  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Description.jpg");
+  background-size: contain;
+}
 td.tech-blog {
-  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_MainTech.jpg");
+  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Tech.jpg");
   background-size: contain;
 }
 td.adv-blog {
-  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_MainAdventure.jpg");
+  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Adventure.jpg");
   background-size: contain;
 }
 
@@ -41,4 +43,5 @@ body {
 
 h1 {
   font-family: "Merriweather", serif;
+  font-size: 40;
 }
