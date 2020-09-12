@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap);
+}
+
+table {
+  border: 1px solid;
+  width: 100%;
+  height: 100%;
+}
+table.nested-table {
+  background-image: url("/Photos/IMG_20200120_172857.jpg");
+  background-size: contain;
+}
+
+th {
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  width: 30%;
+}
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+}
