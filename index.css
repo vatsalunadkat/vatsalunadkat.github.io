@@ -10,7 +10,7 @@ table {
   border-collapse: collapse;
 }
 table.nested-table {
-  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Description.jpg");
+  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_MainDescription.jpg");
   background-size: contain;
   border-collapse: collapse;
   border: 0px;
@@ -26,11 +26,11 @@ td {
   width: 30%;
 }
 td.tech-blog {
-  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Tech.jpg");
+  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_MainTech.jpg");
   background-size: contain;
 }
 td.adv-blog {
-  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Adventure.jpg");
+  background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_MainAdventure.jpg");
   background-size: contain;
 }
 
