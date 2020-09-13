@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Coiny");
+
 @font-face {
   font-family: "Merriweather";
   src: url(https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap);
@@ -26,19 +28,19 @@ td {
 }
 td.main-dis {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Description.jpg");
-  background-size: 100% 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   text-align: center;
 }
 td.tech-blog {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Tech.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
 td.adv-blog {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Adventure.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -50,7 +52,50 @@ body {
   margin-right: 0px;
 }
 
+div.cloud-text {
+  font-family: "Merriweather", serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+  background-size: auto;
+  background-attachment: unset;
+  background-position: 0%;
+  width: 80%;
+  margin: 10%;
+  font-size: 50px;
+  animation: clouds-moving infinite 220s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  text-align: center;
+}
+@keyframes clouds-moving {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+div.attribute {
+  position: relative;
+  font-size: 26px;
+  text-align: center;
+}
+
 h1 {
   font-family: "Merriweather", serif;
   font-size: 40;
+  text-align: center;
+}
+h1.cloud {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8),
+    0px 0px 30px rgba(255, 255, 255, 0.6), 0px 0px 50px rgba(255, 255, 255, 0.5),
+    0px 0px 180px rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.2);
+  font-family: "Merriweather", serif;
+  font-size: 80px;
 }
