@@ -22,23 +22,32 @@ th {
 
 td {
   width: 30%;
+  text-align: center;
 }
 td.main-dis {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Description.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 td.tech-blog {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Tech.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 td.adv-blog {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Adventure.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 body {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 h1 {
