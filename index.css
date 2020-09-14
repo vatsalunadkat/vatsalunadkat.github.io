@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Coiny");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sigmar+One&display=swap");
 
 @font-face {
   font-family: "Merriweather";
@@ -53,16 +53,16 @@ body {
 }
 
 div.cloud-text {
-  font-family: "Merriweather", serif;
+  font-family: "Abril Fatface", cursive;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+  background-image: url(https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/clouds.jpg);
   background-size: auto;
   background-attachment: unset;
   background-position: 0%;
   width: 80%;
   margin: 10%;
-  font-size: 50px;
+  font-size: 60px;
   animation: clouds-moving infinite 220s;
   animation-fill-mode: forwards;
   animation-play-state: running;
@@ -98,4 +98,8 @@ h1.cloud {
   color: rgba(255, 255, 255, 0.2);
   font-family: "Merriweather", serif;
   font-size: 80px;
+}
+
+marquee {
+  color: yellow;
 }
