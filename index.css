@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sigmar+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 @font-face {
   font-family: "Merriweather";
@@ -28,7 +29,7 @@ td {
 }
 td.main-dis {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Description.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -36,13 +37,24 @@ td.tech-blog {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Tech.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
+  vertical-align: text-top;
 }
 td.adv-blog {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Adventure.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
+  vertical-align: text-top;
+}
+
+div.tech-text {
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
+div.adv-text {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
 }
 
 body {
@@ -50,40 +62,6 @@ body {
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-div.cloud-text {
-  font-family: "Abril Fatface", cursive;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: url(https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/clouds.jpg);
-  background-size: auto;
-  background-attachment: unset;
-  background-position: 0%;
-  width: 80%;
-  margin: 10%;
-  font-size: 60px;
-  animation: clouds-moving infinite 220s;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
-  animation-timing-function: linear;
-  text-align: center;
-}
-@keyframes clouds-moving {
-  0% {
-    background-position: 0%;
-  }
-  50% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0%;
-  }
-}
-div.attribute {
-  position: relative;
-  font-size: 26px;
-  text-align: center;
 }
 
 h1 {
