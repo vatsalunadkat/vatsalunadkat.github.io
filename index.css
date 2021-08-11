@@ -26,6 +26,7 @@ th {
 td {
   width: 30%;
   text-align: center;
+  cursor: pointer;
 }
 td.main-dis {
   background-image: url("https://raw.githubusercontent.com/VatsalUnadkat/vatsalunadkat.github.io/master/Photos/IMG_Main_Description.jpg");
@@ -53,8 +54,9 @@ div.tech-text {
 }
 
 div.adv-text {
+  margin-top: 120px;
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 120px;
 }
 
 body {
@@ -80,4 +82,9 @@ h1.cloud {
 
 marquee {
   color: yellow;
+}
+
+td a {
+  display:block;
+  width:100%;
 }
