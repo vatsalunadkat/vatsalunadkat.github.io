@@ -1,9 +1,0 @@
-baseURL = "https://vatsalunadkat.github.io/"
-languageCode = "en-us"
-title = "Vatsal Unadkat"
-theme = "hugo-blog-awesome"
-paginate = 10
-
-[params]
-  description = "My personal portfolio website"
-  githubUsername = "vatsalunadkat"
