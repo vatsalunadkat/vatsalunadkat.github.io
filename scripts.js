@@ -15,7 +15,7 @@ function Timeline(cvs) {
     };
     self.targets = [
         [29, 32, 48, 68],
-        [29, 33, 38]
+        [29, 33, 38, 43]
     ];
     self.dotColors = [
         ['#13669b', 'rgba(19, 102, 155, 0.3)', 'rgba(19, 102, 155, 0.08)'],
