@@ -1,21 +1,39 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 2em 0; /* Add padding to top and bottom */
     box-sizing: border-box;
+    background: url('assets/backgrounds/hatching-7098132_1920.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    min-height: 100vh; /* Ensure the background covers the full height of the viewport */
+}
+
+.container {
+    width: 800px;
+    min-height: 1000px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7); /* Diagonal shadow effect */
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 10px; /* rounded corners */
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 1em 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0; /* Match container's rounded corners */
 }
 
 header nav ul {
     list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
-    padding: 0;
 }
 
 header nav ul li {
@@ -27,14 +45,13 @@ header nav ul li a {
     text-decoration: none;
 }
 
-#hero {
-    background-color: #f4f4f4;
-    padding: 2em;
-    text-align: center;
+section {
+    margin-bottom: 2em;
 }
 
-section {
-    padding: 2em;
+#hero {
+    text-align: center;
+    margin-bottom: 2em;
 }
 
 #projects .project {
