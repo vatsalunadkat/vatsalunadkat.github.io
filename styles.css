@@ -16,10 +16,16 @@ body {
     min-height: 1000px;
     background-color: #222222; /* Dark theme background */
     color: #fff; /* White text */
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9); /* shadow effect */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9); /* shadow effect */
     padding: 2em;
     margin: 2em 0;
     border-radius: 10px; /* rounded corners */
+}
+
+marquee {
+    margin-bottom: 1em;
+    font-size: 20px;
+    color: yellow;
 }
 
 header {
@@ -56,21 +62,31 @@ section {
     text-align: left;
     margin-top: 5em;
     margin-bottom: 5em;
+    line-height: 150%;
 }
 
 #projects .project {
     margin-bottom: 2em;
 }
 
+.name {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 2px;
+}
+
 .anim-text-flow span {
+    margin-top: 1px;
     font-size: 50px;
+    font-family: "Raleway", sans-serif;
     animation-name: anim-text-flow-keys;
     animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-fill-mode: forwards;
 }
-  
+
 /* Keyframe loop */
 @keyframes anim-text-flow-keys {
     0% { color: hsla(85, 60%, 60%, 1); }
@@ -95,7 +111,7 @@ section {
     95% { color: hsla(1700, 60%, 60%, 1); }
     100% { color: hsla(1785, 60%, 60%, 1); }
 }
-  
+
 /* Element animation delay loop */
 .anim-text-flow span:nth-child(1) { animation-delay: 0s; }
 .anim-text-flow span:nth-child(2) { animation-delay: -0.2s; }
