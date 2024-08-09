@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 2em 0; /* Add padding to top and bottom */
     box-sizing: border-box;
-    background: url('https: //github.com/vatsalunadkat/vatsalunadkat.github.io/blob/ef90a1144560c38f3d15d48b6f871d955a803d57/Assets/backgrounds/hatching-7098132_1920.png') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/vatsalunadkat/vatsalunadkat.github.io/960b41465e86bcf116332fce9e14cc5dfc517517/images/backgrounds/hatching-7098132_1920.png') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
