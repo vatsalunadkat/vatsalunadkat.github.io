@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const randomIndex = Math.floor(Math.random() * backgrounds.length);
   const selectedBackground = backgrounds[randomIndex];
   const baseImageURL =
-    "https://raw.githubusercontent.com/vatsalunadkat/vatsalunadkat.github.io/960b41465e86bcf116332fce9e14cc5dfc517517/";
+    "https://raw.githubusercontent.com/vatsalunadkat/vatsalunadkat.github.io/master/";
   document.body.style.backgroundImage = `url('${baseImageURL}images/backgrounds/${selectedBackground}')`;
 });
