@@ -10,15 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const backgrounds = [
     "hatching-7098132_1920.png",
     "flowers-5209386.jpg",
-    "ai-generated-8550365_1920.jpg",
-    "ai-generated-8566567_1920.jpg",
-    "ai-generated-8723703_1920.jpg",
-    "ai-generated-8866025_1280.jpg",
-    "ai-generated-8915485_1280.jpg",
-    "compass-7592447_1920.jpg",
-    "garage-8848215_1920.jpg",
-    "sea-7364988_1920.jpg",
-    "trees-4051288_1920.jpg",
     "classroom-8953770_1920.jpg"
   ];
 
