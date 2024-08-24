@@ -1,75 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Vatsal | Backend Developer</title>
     <link
-      rel="icon"
-      href="https://raw.githubusercontent.com/vatsalunadkat/vatsalunadkat.github.io/master/images/icons/favicon_1.png"
+            href="https://raw.githubusercontent.com/vatsalunadkat/vatsalunadkat.github.io/master/images/icons/favicon_1.png"
+            rel="icon"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
     />
-  </head>
-  <body>
-    <div class="container">
-      <header>
+</head>
+<body>
+<div class="container">
+    <header>
         <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-      </header>
+    </header>
 
-      <table class="hero-table">
+    <table class="hero-table">
         <tr>
-          <td>
-            <section id="hero">
-              <span class="name">Hey, I'm Vatsal</span>
-              <h1><span class="role">Backend Engineer.</span></h1>
-            </section>
-          </td>
-          <td class="photo-cell"><div class="blob"></div></td>
+            <td>
+                <section id="hero">
+                    <span class="name">Hey, I'm Vatsal</span>
+                    <h1><span class="role">Backend Engineer.</span></h1>
+                </section>
+            </td>
+            <td class="photo-cell">
+                <div class="blob"></div>
+            </td>
         </tr>
-      </table>
+    </table>
 
-      <section id="about">
+    <section id="about">
         <h2>About Me</h2>
         <p>
-          My name is Vatsal Unadkat and I'm a software developer with ~4 years
-          of expirence based in Pune, India. I currently work as a backend
-          engineer during the weekdays and on the weekends I'm persuing my
-          Online Masters in Computer Science (OMSCS) from Georgia Institute of
-          Technology (Atlanta, GA, United States).
+            My name is Vatsal Unadkat and I'm a software developer with ~4 years
+            of expirence based in Pune, India. I currently work as a backend
+            engineer during the weekdays and on the weekends I'm persuing my
+            Online Masters in Computer Science (OMSCS) from Georgia Institute of
+            Technology (Atlanta, GA, United States).
         </p>
-      </section>
+    </section>
 
-      <section id="projects">
+    <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-          <h3>Project Title</h3>
-          <p>Project description goes here.</p>
+            <h3>Project Title</h3>
+            <p>Project description goes here.</p>
         </div>
-      </section>
+    </section>
 
-      <section id="skills">
+    <section id="skills">
         <h2>Skills</h2>
         <p>List your skills here.</p>
-      </section>
+    </section>
 
-      <section id="contact">
+    <section id="contact">
         <h2>Contact</h2>
         <p>Get in touch with me.</p>
-      </section>
+    </section>
+
+    <div class="footer">
+        <div class="bubbles">
+            <div class="bubble" style="--size:2.5rem; --distance:8rem; --position:10%; --time:3s; --delay:-2s;"></div>
+        </div>
+        <div class="content">
+            <div>
+                <div>
+                    <b>About</b>
+                    <a href="#">About 1</a>
+                    <a href="#">About 2</a>
+                    <a href="#">About 3</a>
+                </div>
+                <div>
+                    <b>Projects</b>
+                    <a href="#">Project 1</a>
+                    <a href="#">Project 2</a>
+                    <a href="#">Project 3</a>
+                </div>
+                <div>
+                    <b>Skills</b>
+                    <a href="#">Skill 1</a>
+                    <a href="#">Skill 2</a>
+                    <a href="#">Skill 3</a>
+                </div>
+                <div>
+                    <b>Contact</b>
+                    <a href="#">Email</a>
+                    <a href="https://www.github.com/vatsalunadkat">GitHub</a>
+                    <a href="https://www.linkedin.com/in/vatsalunadkat/">LinkedIn</a>
+                </div>
+            </div>
+            <div>
+                <a class="image" href="https://codepen.io/z-" style="background-image: url('https://raw.githubusercontent.com/vatsalunadkat/vatsalunadkat.github.io/master/images/icons/favicon_1.png')"
+                   target="_blank"></a>
+                <p>©2024 Vatsal Unadkat</p>
+            </div>
+        </div>
     </div>
-    <script src="scripts.js"></script>
-  </body>
+    <svg style="position:fixed; top:100vh">
+        <defs>
+            <filter id="blob">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" result="blob"
+                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"></feColorMatrix>
+            </filter>
+        </defs>
+    </svg>
+</div>
+<script src="scripts.js"></script>
+</body>
 </html>
