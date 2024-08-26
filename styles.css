@@ -14,7 +14,7 @@ body {
 .container {
     width: 800px;
     min-height: 1000px;
-    background-color: #0f0f0f; /* Dark theme background */
+    background-color: #171717; /* Dark theme background */
     color: #fff; /* White text */
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9); /* shadow effect */
     padding: 2em;
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-color: #0f0f0f;
+    background-color: #171717;
     color: #fff;
     padding: 0.2em;
     text-align: right; /* Align text to the right */
@@ -193,7 +193,8 @@ section {
     position: relative;
     font-family: 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
-    transform: translate(-50px, -55px) rotate(-90deg);
+    color: #fff;
+    transform: translate(-45px, -55px) rotate(-90deg);
     width: 10em;
     font-size: 11px;
     top: 30em;
@@ -204,7 +205,8 @@ section {
     position: relative;
     font-family: 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
-    transform: translate(-50px, -60px) rotate(-90deg);
+    color: #fff;
+    transform: translate(-45px, -55px) rotate(-90deg);
     width: 10em;
     font-size: 11px;
     top: 20em;
@@ -217,8 +219,8 @@ section {
     height: 20em;
     background: linear-gradient(
             90deg,
-            #0f0f0f 0,
-            #0f0f0f 49px,
+            #171717 0,
+            #171717 49px,
             #000 50px
     );
     background-size: 50px 50px;
@@ -301,7 +303,7 @@ section {
 
 /* Blue - COEP */
 .timeline-event-edu-1:before {
-    background: linear-gradient(to right, #0f0f0f 0%, #0064EA 100%);
+    background: linear-gradient(to right, #171717 0%, #0064EA 100%);
     width: 300px;
 }
 
@@ -318,7 +320,7 @@ section {
 
 /* Yellow - GaTech */
 .timeline-event-edu-2::before {
-    background: linear-gradient(to left, #0f0f0f 0%, #F59E0B 100%);
+    background: linear-gradient(to left, #171717 0%, #F59E0B 100%);
     width: 200px;
     transform: translate(320px, 0);
 }
@@ -449,7 +451,7 @@ section {
 
 /* Red */
 .timeline-event-work-5::before {
-    background: linear-gradient(to left, #0f0f0f 0%, #EB3300 100%);
+    background: linear-gradient(to left, #171717 0%, #EB3300 100%);
     width: 100px;
     transform: translate(107px, -100px);
 }
