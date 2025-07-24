@@ -304,13 +304,14 @@ section {
 /* Blue - COEP */
 .timeline-event-edu-1:before {
     background: linear-gradient(to right, #171717 0%, #0064EA 100%);
-    width: 300px;
+    width: 200px;
+    /* transform: translate(320px, 0); */
 }
 
 .timeline-event-edu-1 h2,
 .timeline-event-edu-1 h3,
 .timeline-event-edu-1 h4 {
-    transform: translate(85px, 85px);
+    transform: translate(40px, 85px);
     text-align: right;
 }
 
@@ -320,15 +321,16 @@ section {
 
 /* Yellow - GaTech */
 .timeline-event-edu-2::before {
-    background: linear-gradient(to left, #171717 0%, #F59E0B 100%);
-    width: 200px;
-    transform: translate(320px, 0);
+    /* background: linear-gradient(to left, #171717 0%, #F59E0B 100%); */
+    background: #F59E0B;
+    width: 220px;
+    transform: translate(220px, 0);
 }
 
 .timeline-event-edu-2 h2,
 .timeline-event-edu-2 h3,
 .timeline-event-edu-2 h4 {
-    transform: translate(320px, 85px);
+    transform: translate(222px, 85px);
 }
 
 .timeline-event-edu-2 h3 {
